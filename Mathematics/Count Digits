@@ -1,0 +1,15 @@
+# Count Digits
+
+def countdigits(x) :
+    res = 0
+    while x > 0 :
+        x = x //10
+        res += 1 
+    print(res)
+    
+x = 789
+countdigits(x)
+
+
+Output:
+3
